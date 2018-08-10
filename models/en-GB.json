@@ -1,0 +1,32 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "chuck norris jokes",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetJokeIntent",
+          "samples": [
+            "joke me",
+            "give me a joke"
+          ]
+        }
+      ]
+    }
+  }
+}
